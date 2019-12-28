@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "mock": "json-server db.js"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "mockjs": "^1.1.0"
+  }
+}

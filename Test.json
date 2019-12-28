@@ -1,0 +1,14 @@
+[
+    {
+        "request":
+        {
+            "method":"get",
+            "uri":"/api/hello"
+        },
+        "response":
+        {
+            "text":"hello Savitar!",
+            "status":200
+        }
+    }
+]

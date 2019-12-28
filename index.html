@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>菜鸟教程</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script>
+      $(document).ready(function() {
+        $("button").click(function() {
+        $.get(" http://localhost:3003/news?_start=10&_limit=5"
+        // ,function () {
+        //     alert("数据: " +"\n状态: " );
+        // }
+        )
+        });
+      });
+    // $.ajax({
+    // type: 'post',
+    // url: 'http://localhost:3003/news',
+    // data: {
+    //   "id": 3,
+    //   "title": "我是新加入的新闻",
+    //   "date": "2016-08-12",
+    //   "likes": 0,
+    //   "views": 0
+    // }
+//   }
+// )
+    </script>
+  </head>
+  <body>
+    <h2>这是一个标题1324</h2>
+    <p>这是一个段落。</p>
+    <p>这是另一个段落。</p>
+    <button>点我</button>
+  </body>
+</html>
